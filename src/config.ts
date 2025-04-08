@@ -2,9 +2,9 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://realkevin.ggff.net/",
-  author: "kevin",
+  author: "Kevin",
   desc: "智能风控",
-  title: "kevin",
+  title: "Kevin",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,
