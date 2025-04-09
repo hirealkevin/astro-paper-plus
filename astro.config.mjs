@@ -29,6 +29,7 @@ export default defineConfig({
     mdx(),
   ],
   markdown: {
+    charset: 'utf-8',
     remarkPlugins: [
       remarkToc,
       remarkReadingTime,
@@ -45,5 +46,7 @@ export default defineConfig({
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
+    esbuild: {
+    charset: 'utf8'  
   },
 });
