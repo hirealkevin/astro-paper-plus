@@ -48,5 +48,6 @@ export default defineConfig({
     },
     esbuild: {
     charset: 'utf8'  
+      },
   },
 });
